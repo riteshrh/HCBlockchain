@@ -4,27 +4,45 @@ __pycache__/
 *$py.class
 *.so
 .Python
-env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
 venv/
+env/
 ENV/
 .venv
-pip-log.txt
-pip-delete-this-directory.txt
 
-# IDEs
+# IDE
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
+.DS_Store
 
 # Environment variables
 .env
 .env.local
-config.yaml
+.env.*.local
 
 # Database
 *.db
+*.sqlite
 *.sqlite3
 
 # Logs
@@ -35,23 +53,23 @@ logs/
 .pytest_cache/
 .coverage
 htmlcov/
+.tox/
 
-# Distribution
-dist/
-build/
-*.egg-info/
-
-# Node (for frontend)
+# Frontend
 node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+.pnpm-debug.log*
+dist/
+build/
 
-# Temporary files
-*.tmp
-.DS_Store
-
-# Blockchain data
+# Blockchain
+*.chain
 blockchain_data/
+blockchain_data.json
+backend/blockchain_data.json
 
-docs/
+# OS
+.DS_Store
+Thumbs.db
