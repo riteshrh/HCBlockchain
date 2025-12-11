@@ -36,8 +36,6 @@ ENV/
 .DS_Store
 
 # Environment variables
-.env
-.env.local
 .env.*.local
 
 # Database
@@ -73,3 +71,4 @@ backend/blockchain_data.json
 # OS
 .DS_Store
 Thumbs.db
+config.bat
